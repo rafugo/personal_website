@@ -12,24 +12,22 @@ function App() {
     <Layout>
       <Header className="header-color" title="Rafael Fueyo-Gomez" scroll>
           <Navigation className="header-navigation">
-              <Link to="/resume">
-                <text className="header-link-text">Resume</text>
+              <Link to="/">
+                <h4 className="header-link-text">Home</h4>
               </Link>
-              <Link to="/aboutme">
-                <text className="header-link-text">About Me</text>
+              <Link to="/resume">
+                <h4 className="header-link-text">Resume</h4>
               </Link>
               {/* <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link> */}
           </Navigation>
       </Header>
-      {/* <Drawer title="Title">
+      <Drawer>
           <Navigation>
+              <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
           </Navigation>
-      </Drawer> */}
+      </Drawer>
       <Content>
           <div className="page-content" />
           <Main/>

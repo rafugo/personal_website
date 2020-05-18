@@ -1,7 +1,7 @@
 .header-color {
-  background: #200122;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #73C8A9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .header-navigation {
@@ -15,9 +15,9 @@
 }
 
 .landing-grid {
-  background: #200122;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #73C8A9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -129,47 +129,16 @@
   padding-right: 5rem;
 }
 
-.resume-grid {
-  background: #200122;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: left;
-  top: 0;
-  left: 0;
+.resume-color {
+  background: #73C8A9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
   height: 100%;
+
+  text-align: center;
 }
 
-.resume-left-col {
-  font-family: "Muli", sans-serif;
-  color: white;
-  padding-left: 45px;
-  padding-top: 0px;
-  padding-right: 0px;
-  position: fixed;
-}
-
-.resume-left-col h2 {
-  font-size: 40px;
-  font-family: "Muli", sans-serif;
-  padding-left: 0px;
-  font-weight: bold;
-}
-
-.resume-left-col h4 {
-  font-size: 30px;
-  font-family: "Muli", sans-serif;
-  padding-left: 15px;
-  font-weight: bold;
-}
-
-.resume-left-col p {
-  font-family: "Muli", sans-serif;
-  padding-left: 15px;
-  font-weight: bold;
-}
-
-.resume-right-col {
-  color: white;
-  padding-left: 45%;
+.resume-pdf-viewer {
+  display: inline-block;
 }
